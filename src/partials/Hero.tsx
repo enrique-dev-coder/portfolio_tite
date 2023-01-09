@@ -1,63 +1,50 @@
+/* eslint-disable */
+
 import {
   GradientText,
   HeroAvatar,
   HeroSocial,
   Section,
-} from 'astro-boilerplate-components';
+} from "astro-boilerplate-components";
 
 const Hero = () => (
   <Section>
     <HeroAvatar
       title={
         <>
-          Hi there, I'm <GradientText>Ixartz</GradientText> 👋
+          Hi there, I'm <GradientText>Tite, Frontend dev</GradientText>👋
         </>
       }
       description={
         <>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            malesuada
-          </a>{' '}
-          nisi tellus, non imperdiet nisi tempor at. Lorem ipsum dolor sit amet,{' '}
-          <a className="text-cyan-400 hover:underline" href="/">
-            consectetur
-          </a>{' '}
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+          Hello and welcome to my portfolio website! My name is{" "}
+          <b className=" text-cyan-400">
+            Enrique Alvarado , my friends call me Tite
+          </b>{" "}
+          and I am a frontend developer with a passion for creating visually
+          stunning and user-friendly websites and applications. I have had the
+          opportunity to work with a variety of clients and technologies, and
+          have developed a strong set of skills in{" "}
+          <b className=" text-cyan-400">
+            {" "}
+            javascript frameworks,html,css, UI design and problem solving.
+          </b>{" "}
         </>
       }
       avatar={
         <img
-          className="h-80 w-64"
-          src="/assets/images/avatar.svg"
+          className="h-80 w-80 rounded-full"
+          src="/assets/images/tite_avatar.jpg"
           alt="Avatar image"
           loading="lazy"
         />
       }
       socialButtons={
         <>
-          <a href="/">
+          <a href="https://wa.link/1fe8ng">
             <HeroSocial
-              src="/assets/images/twitter-icon.png"
-              alt="Twitter icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/facebook-icon.png"
-              alt="Facebook icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/linkedin-icon.png"
-              alt="Linkedin icon"
-            />
-          </a>
-          <a href="/">
-            <HeroSocial
-              src="/assets/images/youtube-icon.png"
-              alt="Youtube icon"
+              src="/assets/images/whatsapp_icon.png"
+              alt="Whatsapp icon"
             />
           </a>
         </>
